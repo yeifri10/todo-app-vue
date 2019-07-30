@@ -1,5 +1,7 @@
 <template>
-    <h1 class="text-red-400">Hello world</h1>
+    <div class="bg-white shadow-lg p-4">
+        <slot></slot>
+    </div>
 </template>
 
 <script>
