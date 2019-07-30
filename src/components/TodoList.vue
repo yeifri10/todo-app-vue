@@ -1,12 +1,12 @@
 <template>
     <div class="container mx-auto px-4 py-20 flex flex-col flex-wrap">
-        <h1 class="font-thin text-6xl text-center text-gray-500">Todo App</h1>
+        <h1 class="font-hairline text-6xl text-center text-gray-500">Todo App</h1>
 
-        <todo-card class="mx-auto mt-4 h-64 w-full sm:w-11/12 md:w-5/12">
+        <todo-card class="mx-auto mt-4 h-64 w-full max-w-lg">
             Todo List
         </todo-card>
 
-        <todo-card class="mx-auto mt-10 w-full sm:w-11/12 md:w-5/12">
+        <todo-card class="mx-auto mt-10 w-full max-w-lg">
             Create/Edit Task
         </todo-card>
     </div>
